@@ -12,7 +12,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 18px;
     color: #e5e7eb;
 }
 
@@ -246,6 +245,8 @@ li:hover {
 
 
 
+
+
 /* media */
 
 
@@ -281,12 +282,48 @@ li:hover {
 
     .sign_up_container_heading {
         margin-bottom: 8px;
-    }
+    };
 }
 
 @media screen and (max-width: 725px) {
     .images_container_card {
         flex-basis: 50%;
-    };
+    }
+
+    ul {
+        font-size: 15px;
+    }
+
+    .header_info {
+        margin: 40px 0;
+        margin-bottom: 60px;
+    }
+
+    .header_info_container_text {
+        font-size: 15px;
+    }
+
+    .main_container_text {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .sign_up_container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .images {
+        padding-bottom: 60px;
+    }
 }
+
+
 
