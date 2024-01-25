@@ -160,4 +160,38 @@ img {
     background-size: cover;
 }
 
+.main {
+    width: 100%;
+}
+
+.main_wrapper {
+    background-color: #e5e7eb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.main_container {
+    max-width: 1000px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+.main_container_text {
+    margin: 0;
+    padding: 0 60px;
+}
+
+.main_container_quote {
+    text-align: right;
+    margin: 10px;
+    padding-right: 60px;
+}
 
