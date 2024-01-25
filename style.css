@@ -151,7 +151,7 @@ img {
 }
 
 .image_img.third {
-    background-image: url('./images/beach-2562563_1920.jpg');
+    background-image: url('./images/to-stage-7345735_1920.jpg');
     background-size: cover;
 }
 
@@ -232,5 +232,61 @@ img {
 
 .footer_text {
     color:#e5e7eb;
+}
+
+button:hover {
+    background-color: #1e5abb;
+    cursor: pointer;
+}
+
+li:hover {
+    color:#747475;
+    cursor: pointer;
+}
+
+
+
+/* media */
+
+
+@media screen and (max-width: 1010px) {
+    .images_container_card {
+        flex-basis: 30%;
+    };
+    
+}
+
+
+@media screen and (max-width: 890px) {
+    .header_info {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header_list {
+        padding-left: 15px;
+    }
+
+    button, .sign_up_container_button {
+        width: 100%;
+    }
+
+    .sign_up_container {
+        justify-content: center;
+    }
+
+    .sign_up_container_text {
+        text-align: center;
+    }
+
+    .sign_up_container_heading {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .images_container_card {
+        flex-basis: 50%;
+    };
 }
 
