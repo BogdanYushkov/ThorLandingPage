@@ -20,6 +20,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .header_wrapper {
@@ -36,6 +37,7 @@ ul {
 .header_container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -56,6 +58,7 @@ ul {
     justify-content: space-between;
     margin-top: 90px;
     margin-bottom: 90px;
+    flex-wrap: wrap;
 }
 
 .header_info_container {
@@ -82,6 +85,7 @@ ul {
     border:0;
     font-weight: 700;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .header_info_image img {
@@ -93,6 +97,67 @@ img {
     height: auto;
 }
 
-.images {
+.images_wrapper {
     background-color: #f9faf8;
+    width: 100%;
 }
+
+.images {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+    padding: 0 30px;
+    padding-bottom: 100px;
+}
+
+.images_heading {
+    text-align: center;
+}
+
+.images_heading_heading {
+    margin: 50px 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.images_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.images_container_card {
+    width: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.image_img {
+    height: 200px;
+}
+
+.image_img.first {
+    background-image: url('./images/waves-3473335_1920.jpg');
+    background-size: cover;
+}
+
+.image_img.second {
+    background-image: url('./images/shellfish-3062011_1920.jpg');
+    background-size: cover;
+}
+
+.image_img.third {
+    background-image: url('./images/beach-2562563_1920.jpg');
+    background-size: cover;
+}
+
+.image_img.fourth {
+    background-image: url('./images/ocean-2051760_1920.jpg');
+    background-size: cover;
+}
+
+
